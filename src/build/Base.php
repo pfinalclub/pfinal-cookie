@@ -69,8 +69,6 @@ class Base
     {
         if ($this->has($cookie_name)) {
             return Encryption::decrypt($this->items[$this->prefix . $cookie_name]);
-        } else {
-            die("No cookie\n");
         }
     }
 
