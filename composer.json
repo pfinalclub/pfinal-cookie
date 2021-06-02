@@ -21,7 +21,7 @@
     "require": {
         "php": ">=5.4.0",
         "nancheng/pfinal-config": "v0.1",
-        "nancheng/pfinal-encryption": "v0.1"
+        "nancheng/pfinal-encryption": "v0.11"
 
     },
     "autoload": {
